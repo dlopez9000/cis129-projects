@@ -13,10 +13,10 @@ def showResults(total):
     bunsLeft = (BUNS - total % BUNS) % BUNS
     minBuns = (total // BUNS) + (0 ** (0 ** bunsLeft))
 
-    print("The minimum number of packages of hot dogs required:", minDogs)
-    print("The minimum number of packages of buns required:", minBuns)
-    print("The number of hot dogs that will be left over:", dogsLeft)
-    print("The number of buns that will be left over:", bunsLeft)
+    print("Minimum packages of hot dogs needed:", minDogs)
+    print("Minimum packages of hot dog buns needed:", minBuns)
+    print("Hot dogs remaining:", dogsLeft)
+    print("Hot dog buns remaining:", bunsLeft)
 
 
 totalHotDogs = getTotalHotDogs()
